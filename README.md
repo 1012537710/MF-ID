@@ -18,12 +18,10 @@ road_seg_val: VOC/seg/images/val
 
 ```
 python trainds.py 
-
 ```
 
 3. test image folder with :
 
 ```
 python detectds.py
-
 ```
