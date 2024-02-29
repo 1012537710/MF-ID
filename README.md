@@ -1,5 +1,8 @@
 # MF-ID: A Benchmark and Approach for Multi-category Finegrained Intrusion Detection
 
+## Reltative datasets
+https://pan.baidu.com/s/1u0Pz3suqge1y4L03DVOBcA?pwd=tl1g
+
 ## Train custom data
 
 
