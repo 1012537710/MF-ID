@@ -1,0 +1,17 @@
+
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+path:  /home/hanfujun/yolov5ds/paper_data1/det # dataset root dir
+train: train.txt  # train images (relative to 'path') 118287 images
+val:   val.txt # train images (relative to 'path') 5000 images
+test:  val.txt
+road_seg_train: /home/hanfujun/yolov5ds/paper_data1/seg/images/train   # road segmentation data
+road_seg_val: /home/hanfujun/yolov5ds/paper_data1/seg/images/val
+
+# Classes
+nc: 1  # number of classes
+segnc: 2
+
+names: ['Pedestrian']  # class names
+#names: ['Two-Wheel Vehicle,Bicycle','Two-Wheel Vehicle,Motorcycle','Person,Pedestrian','Person,Rider','Two-Wheel Vehicle','Person']  # class names
+
+segnames: ['road']

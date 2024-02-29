@@ -1,0 +1,17 @@
+
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+path: .  # dataset root dir
+train: /root/YePeng/yolov5ds/datasets/images/train/cityspaces_train  # train images (relative to 'path') 118287 images
+val: /root/YePeng/yolov5ds/datasets/images/val/cityspaces_val # train images (relative to 'path') 5000 images
+road_seg_train: /root/YePeng/yolov5ds/datasets/seg/images/train  # road segmentation data
+road_seg_val: /root/YePeng/yolov5ds/datasets/seg/images/val
+
+# Classes
+nc: 4  # number of classes
+segnc: 2
+
+names: ['Bicycle','Motorcycle','Pedestrian','Rider']  # class names
+#names: ['Two-Wheel Vehicle,Bicycle','Two-Wheel Vehicle,Motorcycle','Person,Pedestrian','Person,Rider']  # class names 之前的多类别细粒度的
+#names: ['Two-Wheel Vehicle,Bicycle','Two-Wheel Vehicle,Motorcycle','Person,Pedestrian','Person,Rider','Two-Wheel Vehicle','Person']  # class names
+
+segnames: ['road']
