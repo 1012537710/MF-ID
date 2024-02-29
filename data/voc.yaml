@@ -10,8 +10,6 @@ road_seg_val: /root/YePeng/yolov5ds/datasets/seg/images/val
 nc: 4  # number of classes
 segnc: 2
 
-names: ['Bicycle','Motorcycle','Pedestrian','Rider']  # class names
-#names: ['Two-Wheel Vehicle,Bicycle','Two-Wheel Vehicle,Motorcycle','Person,Pedestrian','Person,Rider']  # class names 之前的多类别细粒度的
-#names: ['Two-Wheel Vehicle,Bicycle','Two-Wheel Vehicle,Motorcycle','Person,Pedestrian','Person,Rider','Two-Wheel Vehicle','Person']  # class names
 
+names: ['Two-Wheel Vehicle,Bicycle','Two-Wheel Vehicle,Motorcycle','Person,Pedestrian','Person,Rider'] 
 segnames: ['road']
