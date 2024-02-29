@@ -17,15 +17,22 @@ train: VOC/det/images/train  # train images (relative to 'path') 118287 images
 val: VOC/det/images/test  # train images (relative to 'path') 5000 images
 road_seg_train: VOC/seg/images/train   # road segmentation data
 road_seg_val: VOC/seg/images/val
+# Classes
+nc: 4  # number of classes
+segnc: 1
 
+```
    
 3. change the config in trainds.py and :
+
 ```
 python trainds.py 
+
 ```
 
 4. test image folder with :
 
 ```
 python detectds.py
+
 ```
