@@ -2,11 +2,11 @@ MF-ID: A Benchmark and Approach for Multi-category Finegrained Intrusion Detecti
 
 ## Train custom data
 
-1. Use labelme to label box and mask on your dataset;
+ 1. Use labelme to label box and mask on your dataset;
 
-the box label format is voc, you can use voc2yolo.py to convert to yolo format,
+ the box label format is voc, you can use voc2yolo.py to convert to yolo format,
 
-the mask label  is json files , you should convert to mask .png image labels,like VOC2012 segmentation labels.
+ the mask label  is json files , you should convert to mask .png image labels,like VOC2012 segmentation labels.
 
 2. see [how to arrange your detection dataset with yolov5](https://github.com/ultralytics/yolov5/wiki/Train-Custom-Data) , then arrange your segmentation dataset same as yolo files , see data/voc.yaml:
 
