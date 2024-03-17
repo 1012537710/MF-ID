@@ -1,4 +1,4 @@
-# MF-ID: A Benchmark and Approach for Multi-category Finegrained Intrusion Detection
+# MF-ID: A Benchmark and Approach for Multi-category Fine-grained Intrusion Detection
 
 
 ## Train custom data
